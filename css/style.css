@@ -148,6 +148,10 @@ h2 {
 
 }
 
+.project{
+  padding: 1em 5%;
+}
+
 .recent-blog {
   background: rgb(96,163, 171);
   color: #fff;
@@ -160,7 +164,6 @@ h2 {
     width: 32%;
     vertical-align: middle;
 }
-
 
 @media screen and (min-width: 481px ) {
 
@@ -183,6 +186,16 @@ h2 {
   .active-link {
     display: none;
   }
+
+  .project {
+    width: 49%;
+    display:inline-block;
+  }
+
+  .page-description {
+    text-align: left;
+  }
+
 }
 
 /*Volgende is niet getest, lol */
